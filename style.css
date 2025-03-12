@@ -1,0 +1,51 @@
+body{
+    
+    background-color: hsla(0, 0%, 90%)
+}
+form{
+    background-color:  hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    width: 50%;
+    box-shadow:   5px 5px  5px 5px hsla(0, 0%, 0%, 0.418);
+    text-align: center;
+
+}
+h1{
+    text-transform: capitalize;
+
+}
+#textbox{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+#toFahrenheit,#toCelsius{
+    font-size: 1.5rem ;
+    margin: 5px;
+
+
+}
+label{
+    font-size: 1.5rem ;
+    text-transform: capitalize;
+}
+button{
+    border: none;
+    background-color: hsl(266, 100%, 50%);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(266, 100%, 60%);
+}
+#result{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
